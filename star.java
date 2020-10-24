@@ -18,7 +18,9 @@ public class Star
     } 
     public static void main(String args[]) 
     { 
-        int n = 6; 
+        System.out,println("Enter number);
+                           Scanner sc=new Scanner(System.in);
+        int n =sc.nextInt(); 
         Triangle(n); 
     } 
 }
